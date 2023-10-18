@@ -1,4 +1,7 @@
 def main(a, n):
+    apoczatkowe = a
+    npoczatkowe = n
+
     w = 1
 
     while (n > 0):
@@ -7,7 +10,7 @@ def main(a, n):
 
         a = a * a
         n = n // 2
-    print(str(a) + " do potęgi " + str(n) + " wynosi: " + str(w))
+    print(str(apoczatkowe) + " do potęgi " + str(npoczatkowe) + " wynosi: " + str(w))
     return w
 
 if __name__ == "__main__":
