@@ -4,4 +4,5 @@ def binarne(liczba):
     print(liczba % 2, end='')
 
 liczba = int(input("Podaj liczbę dziesiętną: "))
-print(f"Liczba {liczba} po zamianie na postać binarną: {binarne(liczba)}")
+print(f"Liczba {liczba} po zamianie na postać binarną: ", end='') 
+binarne(liczba)
